@@ -18,7 +18,7 @@ export function HangmanWord() {
             style={{
               visibility: guessedLetters.includes(letter)
                 ? "visible"
-                : "hidden ",
+                : "hidden",
             }}
           >
             {letter}
